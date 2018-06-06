@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IC:\Users\Filip\Desktop\GuitarTuner\cmsis_boot /IC:\Users\Filip\Desktop\GuitarTuner\cmsis_lib /IC:\Users\Filip /IC:\Users\Filip\Desktop\GuitarTuner\cmsis_lib\include /IC:\Users\Filip\Desktop\GuitarTuner\cmsis /IC:\Users\Filip\Desktop\GuitarTuner /IC:\Users\Filip\Desktop">
+      <source file="..\..\..\cmsis\arm_math.h" lastModified="1334970b4f8">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="141d6dbf790">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\DSP\ComplexMathFunctions\arm_cmplx_mag_f32.c" lastModified="131655db7d0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="141d6df6a60">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="141d6df6a60">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="141d6df6a60">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm0.h" lastModified="159105092a8">
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm4_simd.h" lastModified="15910508ec0">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="141d6df6a60">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="141d6dbe020">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\DSP\CommonTables\arm_common_tables.c" lastModified="131655db7d0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h" lastModified="141d6df7a00">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="141d6dbe020">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\arm_math-master\arm_math-master\src\arm_cmplx_mag_squared_f32.c" lastModified="15910508ec0">
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\arm_math.h"/>
+      </source>
+      <source file="..\..\..\DSP\TransformFunctions\arm_rfft_f32.c" lastModified="131655db7d0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="141d6dbe408">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="141d6dbe408">
+      </source>
+      <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_f32.c" lastModified="131655db7d0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="163ac85cc7d">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\pdm_filter.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="141d6dbe408">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\arm_math-master\arm_math-master\src\core_cmInstr.h" lastModified="15910508ec0">
+      </source>
+      <source file="..\..\..\DSP\TransformFunctions\arm_cfft_radix4_init_f32.c" lastModified="131655db7d0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+         <include file="..\..\..\cmsis\arm_common_tables.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="141d6dbefc0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h" lastModified="141d6dbefc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="141d6dc0730">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="141d6dbf790">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\arm_common_tables.h" lastModified="133497099a0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="163cf5bdbcc">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="141d6df1c40">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="141d6dc0f00">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="141d6e15690">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="141d6dc0f00">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="141d6dbe408">
+      </source>
+      <source file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm4.h" lastModified="159105092a8">
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="141d6df7a00">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\arm_math-master\arm_math-master\src\arm_math.h" lastModified="15910509e60">
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cmInstr.h"/>
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm4_simd.h"/>
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm4.h"/>
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm3.h"/>
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm0.h"/>
+      </source>
+      <source file="..\..\..\..\arm_math-master\arm_math-master\src\core_cm3.h" lastModified="159105092a8">
+         <include file="..\..\..\..\arm_math-master\arm_math-master\src\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\pdm_filter.h" lastModified="13349a83018">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="141d6dbe408">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\DSP\StatisticsFunctions\arm_max_f32.c" lastModified="131655db7d0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="141d6dbe020">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="141d6e25860">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="141d5892930">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\DSP\TransformFunctions\arm_rfft_init_f32.c" lastModified="131655db7d0">
+         <include file="..\..\..\cmsis\arm_math.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="141d6dc0730">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+</dependencies>
